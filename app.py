@@ -4,3 +4,6 @@ app=Flask(__name__)
 def test():
     return 'This is Cloud computing Practice'
 
+if __name__ == '__main__':
+    app.run()
+
